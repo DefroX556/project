@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-01-01T09:12:53.437Z",
+  "totalTested": 2,
+  "validExecutions": 0,
+  "invalidExecutions": 2,
+  "results": [
+    {
+      "url": "https://public-firing-range.appspot.com/reflected/parameter/body?q=XSSFROX%22%3E%3CIMG+SRC%3Dx+onoffline%3D%22alert%28String.fromCharCode%2888%2C83%2C83%29%29%22+class%3Ddalfox%3E",
+      "payload": "\"><IMG SRC=x onoffline=\"alert(String.fromCharCode(88,83,83))\" class=dalfox>",
+      "evidence": "3 line:      XSSFROX\"><IMG SRC=x onoffline=\"alert(String.fromCharCode(88,83,83))\" class=d",
+      "executionDetected": false,
+      "screenshotTaken": false
+    },
+    {
+      "url": "https://public-firing-range.appspot.com/reflected/parameter/body?=&q=XSSFROX%3Cweb-component+onattributechangedcallback%3Dconsole.warn%281%29+class%3Ddalfox%3E%3C%2Fweb-component%3E",
+      "payload": "<web-component onattributechangedcallback=console.warn(1) class=dalfox></web-component>",
+      "evidence": "3 line:      XSSFROX<web-component onattributechangedcallback=console.warn(1) class=dalfo",
+      "executionDetected": false,
+      "screenshotTaken": false
+    }
+  ]
+}
