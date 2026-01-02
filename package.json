@@ -1,0 +1,25 @@
+{
+  "name": "xss-prover",
+  "version": "1.0.0",
+  "description": "CORE REQUIREMENT: XSS Execution Proof System using Puppeteer",
+  "main": "xss-prover.js",
+  "scripts": {
+    "prove": "node xss-prover.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "sharp": "^0.32.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "xss",
+    "security",
+    "proof",
+    "puppeteer",
+    "browser"
+  ],
+  "author": "DalFox XSS Prover",
+  "license": "MIT"
+}
